@@ -14,6 +14,12 @@ function player.update( dt )
     end
 end
 function player.draw()
-    love.graphics.rectangle("fill",player.position_x,player.position_y,player.width,player.height)
+    love.graphics.rectangle(
+                       "fill",
+                       player.position_x,
+                       player.position_y,
+                       player.width,
+                       player.height
+                 )
 end
 return player
