@@ -1,17 +1,16 @@
 function love.load()
-	local tela_de_jogo
+end
+function love.keyreleased( key )
+end
+function love.draw()
+end
+function love.update( dt )
+end
 
-    tela_de_jogo = criarNave(200,400)
-
-end    
-
-
-function CriarNave (x, y)
-    local novaNave = {};
-
-    novaNave.imagem = love.graphics.newImage ('art/spacer.png');
-    novaNave.x = x;
-    novaNave.y = y;
-
-    return novaNave;
-end    
+local player = require 'player'
+function love.draw()
+        player.draw()
+end
+function love.update( dt )
+        player.update( dt )
+end
