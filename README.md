@@ -1,2 +1,2 @@
-# Space_Invaders_Lua
-Space invaders with Lua and Love2D
+# Earth Invaders EVA
+A shooting space ship game made with Lua and Love2D
